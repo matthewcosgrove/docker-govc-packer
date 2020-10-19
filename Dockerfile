@@ -3,7 +3,7 @@ FROM mattcosgrove/govc
 RUN apt-get update && \
     apt-get install -y unzip
 
-ENV PACKER_VERSION=1.6.4
+ENV PACKER_VERSION=1.6.2
 
 ADD https://releases.hashicorp.com/packer/${PACKER_VERSION}/packer_${PACKER_VERSION}_linux_amd64.zip ./
 
